@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+/*Variabel*/
+:root {
+    --font: 'Red Hat Display', sans-serif;
+    /*Primary*/
+    --Pale-blue: hsl(225, 100%, 94%);
+    --Bright-blue: hsl(245, 75%, 52%);
+    /*Neutral*/
+    --Very-pale-blue: hsl(225, 100%, 98%);
+    --Desaturated-blue: hsl(224, 23%, 55%);
+    --Dark-blue: hsl(223, 47%, 23%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem 1rem;
+    align-items: center;
+    justify-content: center;
+    background: url(/images/pattern-background-desktop.svg);
+}
+
+.container {
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.img {
+    width: 100%;
+    
+}
+
+.odr-smr {
+    font-weight: 900;
+}
+
+.box-price {
+    padding: 15%;
+    align-items: center;
+    display: inline;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: var(--Pale-blue);
+}
+
+.plan p{
+    display: block;
+}
+
+.change {
+    color: vab(--Bright-blue);
+    font-size: 500;
+}
+
+.payment {
+    text-align: center;
+    align-items: center;
+}
+
+.pay button{
+    font-weight: 500;
+    color: white;
+    width: 80%;
+    height: 35px;
+    margin-left: 10%;
+    margin-right: 10%;
+    border: none;
+    background-color: var(--Bright-blue);
+    border-radius: 8px;
+    margin-bottom: 8%;
+}
+
+.cancel-order button{
+    font-weight: 500;
+    width: 80%;
+    height: 35px;
+    margin-left: 10%;
+    margin-right: 10%;
+    border: none;
+    background-color: white;
+    margin-bottom: 8%;
+}
