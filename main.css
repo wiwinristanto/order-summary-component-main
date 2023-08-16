@@ -40,24 +40,42 @@ body {
     align-items: center;
     justify-content: center;
     border-radius: 20px;
+    display: block;
 }
 
 .img {
     width: 100%;
-    
+    align-items: center;
+}
+.img img{
+    width: 100%;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
 }
 
 .odr-smr {
+    text-align: center;
+}
+
+.odr-smr h1{
     font-weight: 900;
 }
 
+.odr-smr p{
+    font-weight: 700;
+}
+
 .box-price {
-    padding: 15%;
+    margin: 20px;
     align-items: center;
-    display: inline;
-    box-sizing: border-box;
+    display: flex;
     text-align: center;
-    background-color: var(--Pale-blue);
+    justify-content: space-between;
+}
+
+.nusik-anual {
+    align-items: center;
+    display: flex;
 }
 
 .plan p{
